@@ -1,3 +1,5 @@
+# import pdb
+
 cakes = [
     {
       "name": "Brownie",
@@ -17,6 +19,7 @@ cakes = [
 ]
 
 def get_average_rating(cakes):
+    # pdb.set_trace()
     ratings = []
 
     for cake in cakes:
@@ -24,8 +27,9 @@ def get_average_rating(cakes):
 
         ratings_total = sum(ratings)
         number_of_cakes = len(cakes)
-        average = ratings_total / number_of_cakes
+  
+    average = ratings_total / number_of_cakes
 
-        return average
+    return average
 
 print(get_average_rating(cakes))

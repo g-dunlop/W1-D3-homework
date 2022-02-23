@@ -1,8 +1,8 @@
-# my_string = "This is a test string"
+my_string = "This is a test string"
 
-# length = len(my_string)
+length = len(my_string)
 
-# print(string_length)
+print(length)
 
 #--------
 
@@ -12,16 +12,16 @@
 
 #----------
 
-# def add(a, b):
-#   return a + b
+def add(a, b):
+  return a + b
 
-# add(4)
+add(4, 3)
 
 #---------
 
-# my_dict = {
-#   name: "Beth"
-#   age: 25
-# }
+my_dict = {
+  "name": "Beth",
+  "age": 25,
+}
 
-# numbers = [1 2, 3]
+numbers = [1, 2, 3]
